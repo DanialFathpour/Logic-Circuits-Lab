@@ -1,0 +1,1 @@
+vhdtdtfi -prj HW2-1.2 -o "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/mux4to1.vhi" -module mux4to1 -template E:/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work mux4to1.vhd 

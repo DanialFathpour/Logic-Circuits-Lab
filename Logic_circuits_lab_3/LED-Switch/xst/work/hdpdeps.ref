@@ -1,0 +1,8 @@
+V3 3
+FL "D:/University/6/Logic Circuits Lab/Logic_circuits_lab_3/LED-Switch/Main.vhd" 2023/04/05.13:41:46 P.20131013
+EN work/Main 1680685909 \
+      FL "D:/University/6/Logic Circuits Lab/Logic_circuits_lab_3/LED-Switch/Main.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Main/Behavioral 1680685910 \
+      FL "D:/University/6/Logic Circuits Lab/Logic_circuits_lab_3/LED-Switch/Main.vhd" \
+      EN work/Main 1680685909

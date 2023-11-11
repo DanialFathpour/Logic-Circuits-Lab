@@ -1,0 +1,4 @@
+AR addsub behavioral "D:/University/6/Logic Circuits Lab/HW1/Adder_Subtractor/AddSub.vhd" sub00/vhpl03 1682155831
+EN addsub NULL "D:/University/6/Logic Circuits Lab/HW1/Adder_Subtractor/AddSub.vhd" sub00/vhpl02 1682155830
+EN full_adder NULL "D:/University/6/Logic Circuits Lab/HW1/Adder_Subtractor/Full_Adder.vhd" sub00/vhpl00 1682155828
+AR full_adder behavioral "D:/University/6/Logic Circuits Lab/HW1/Adder_Subtractor/Full_Adder.vhd" sub00/vhpl01 1682155829

@@ -1,0 +1,15 @@
+V3 7
+FL "D:/University/6/Logic Circuits Lab/HW1/Adder_Subtractor/AddSub.vhd" 2023/04/22.14:00:25 P.20131013
+EN work/AddSub 1682155830 \
+      FL "D:/University/6/Logic Circuits Lab/HW1/Adder_Subtractor/AddSub.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/AddSub/Behavioral 1682155831 \
+      FL "D:/University/6/Logic Circuits Lab/HW1/Adder_Subtractor/AddSub.vhd" \
+      EN work/AddSub 1682155830 CP Full_Adder
+FL "D:/University/6/Logic Circuits Lab/HW1/Adder_Subtractor/Full_Adder.vhd" 2023/04/22.13:35:45 P.20131013
+EN work/Full_Adder 1682155828 \
+      FL "D:/University/6/Logic Circuits Lab/HW1/Adder_Subtractor/Full_Adder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Full_Adder/Behavioral 1682155829 \
+      FL "D:/University/6/Logic Circuits Lab/HW1/Adder_Subtractor/Full_Adder.vhd" \
+      EN work/Full_Adder 1682155828

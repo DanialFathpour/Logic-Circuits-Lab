@@ -1,0 +1,6 @@
+vhdtdtfi -prj ALU -o "D:/University/6/Logic Circuits Lab/HW1/ALU/AB.vhi" -module AB -template E:/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Full_Adder.vhd -lib work AddSub.vhd -lib work AB.vhd 
+xst -intstyle ise -ifn "D:/University/6/Logic Circuits Lab/HW1/ALU/AB.xst" -ofn "D:/University/6/Logic Circuits Lab/HW1/ALU/AB.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm AddSub.bmm -p xc3s400-pq208-5 "AB.ngc" AB.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o AB_map.ncd AB.ngd AB.pcf 
+par -w -intstyle ise -ol high -t 1 AB_map.ncd AB.ncd AB.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml AB.twx AB.ncd -o AB.twr AB.pcf 

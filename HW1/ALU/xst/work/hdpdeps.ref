@@ -1,0 +1,32 @@
+V3 19
+FL "D:/University/6/Logic Circuits Lab/HW1/ALU/AB.vhd" 2023/04/22.14:34:56 P.20131013
+EN work/AB 1682875253 FL "D:/University/6/Logic Circuits Lab/HW1/ALU/AB.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/AB/Behavioral 1682875254 \
+      FL "D:/University/6/Logic Circuits Lab/HW1/ALU/AB.vhd" EN work/AB 1682875253 \
+      CP AddSub
+FL "D:/University/6/Logic Circuits Lab/HW1/ALU/AddSub.vhd" 2023/04/22.14:33:58 P.20131013
+EN work/AddSub 1682875249 \
+      FL "D:/University/6/Logic Circuits Lab/HW1/ALU/AddSub.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/AddSub/Behavioral 1682875250 \
+      FL "D:/University/6/Logic Circuits Lab/HW1/ALU/AddSub.vhd" EN work/AddSub 1682875249 \
+      CP Full_Adder
+FL "D:/University/6/Logic Circuits Lab/HW1/ALU/Full_Adder.vhd" 2023/04/22.14:32:42 P.20131013
+EN work/Full_Adder 1682875247 \
+      FL "D:/University/6/Logic Circuits Lab/HW1/ALU/Full_Adder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Full_Adder/Behavioral 1682875248 \
+      FL "D:/University/6/Logic Circuits Lab/HW1/ALU/Full_Adder.vhd" \
+      EN work/Full_Adder 1682875247
+FL "D:/University/6/Logic Circuits Lab/HW1/ALU/LB.vhd" 2023/04/22.14:35:29 P.20131013
+EN work/LB 1682875251 FL "D:/University/6/Logic Circuits Lab/HW1/ALU/LB.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/LB/Behavioral 1682875252 \
+      FL "D:/University/6/Logic Circuits Lab/HW1/ALU/LB.vhd" EN work/LB 1682875251
+FL "D:/University/6/Logic Circuits Lab/HW1/ALU/Main.vhd" 2023/04/22.14:46:10 P.20131013
+EN work/Main 1682875255 FL "D:/University/6/Logic Circuits Lab/HW1/ALU/Main.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Main/Behavioral 1682875256 \
+      FL "D:/University/6/Logic Circuits Lab/HW1/ALU/Main.vhd" EN work/Main 1682875255 \
+      CP LB CP AB

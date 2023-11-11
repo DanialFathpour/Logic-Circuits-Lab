@@ -1,0 +1,1 @@
+vhdtdtfi -prj HW2-1.2 -o "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/BCDtoSS.vhi" -module BCDtoSS -template E:/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work BCDtoSS.vhd 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/University/6/Logic Circuits Lab/HW1/Arithmetic_Block/ABTB_isim_beh.exe" -prj "D:/University/6/Logic Circuits Lab/HW1/Arithmetic_Block/ABTB_beh.prj" "work.ABTB" 

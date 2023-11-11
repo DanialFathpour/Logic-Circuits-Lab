@@ -1,0 +1,9 @@
+V3 6
+FL "D:/University/6/Logic Circuits Lab/Logic_circuits_lab_1/Half_Adder_Schematic.vhf" 2023/03/01.13:47:48 P.20131013
+EN work/Half_Adder_Schematic 1677665880 \
+      FL "D:/University/6/Logic Circuits Lab/Logic_circuits_lab_1/Half_Adder_Schematic.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Half_Adder_Schematic/BEHAVIORAL 1677665881 \
+      FL "D:/University/6/Logic Circuits Lab/Logic_circuits_lab_1/Half_Adder_Schematic.vhf" \
+      EN work/Half_Adder_Schematic 1677665880 CP AND2 CP XOR2

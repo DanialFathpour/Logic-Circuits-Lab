@@ -1,0 +1,5 @@
+set -tmpdir "D:/University/6/Logic Circuits Lab/Keypad/xst/projnav.tmp"
+set -xsthdpdir "D:/University/6/Logic Circuits Lab/Keypad/xst"
+elaborate
+-ifn Main.prj
+-ifmt mixed

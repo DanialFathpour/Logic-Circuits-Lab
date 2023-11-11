@@ -1,0 +1,170 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+E:\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5 -n 3
+-fastpaths -xml AB.twx AB.ncd -o AB.twr AB.pcf
+
+Design file:              AB.ncd
+Physical constraint file: AB.pcf
+Device,package,speed:     xc3s400,pq208,-5 (PRODUCTION 1.39 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+ABA<0>         |ABO<0>         |    8.835|
+ABA<0>         |ABO<1>         |   10.135|
+ABA<0>         |ABO<2>         |   12.263|
+ABA<0>         |ABO<3>         |   11.651|
+ABA<0>         |ABO<4>         |   12.409|
+ABA<0>         |ABO<5>         |   14.259|
+ABA<0>         |ABO<6>         |   14.864|
+ABA<0>         |ABO<7>         |   15.774|
+ABA<1>         |ABO<1>         |    9.323|
+ABA<1>         |ABO<2>         |   11.479|
+ABA<1>         |ABO<3>         |   11.227|
+ABA<1>         |ABO<4>         |   11.895|
+ABA<1>         |ABO<5>         |   14.598|
+ABA<1>         |ABO<6>         |   15.203|
+ABA<1>         |ABO<7>         |   16.113|
+ABA<2>         |ABO<2>         |   11.278|
+ABA<2>         |ABO<3>         |   10.692|
+ABA<2>         |ABO<4>         |   11.876|
+ABA<2>         |ABO<5>         |   12.693|
+ABA<2>         |ABO<6>         |   14.225|
+ABA<2>         |ABO<7>         |   14.398|
+ABA<3>         |ABO<3>         |   11.048|
+ABA<3>         |ABO<4>         |   11.269|
+ABA<3>         |ABO<5>         |   13.170|
+ABA<3>         |ABO<6>         |   13.775|
+ABA<3>         |ABO<7>         |   14.685|
+ABA<4>         |ABO<4>         |   10.308|
+ABA<4>         |ABO<5>         |   10.660|
+ABA<4>         |ABO<6>         |   11.880|
+ABA<4>         |ABO<7>         |   12.089|
+ABA<5>         |ABO<5>         |   10.783|
+ABA<5>         |ABO<6>         |   11.852|
+ABA<5>         |ABO<7>         |   12.143|
+ABA<6>         |ABO<6>         |   11.204|
+ABA<6>         |ABO<7>         |    9.623|
+ABA<7>         |ABO<7>         |   10.171|
+ABB<0>         |ABO<0>         |    8.230|
+ABB<0>         |ABO<1>         |   10.137|
+ABB<0>         |ABO<2>         |   11.395|
+ABB<0>         |ABO<3>         |   10.783|
+ABB<0>         |ABO<4>         |   11.541|
+ABB<0>         |ABO<5>         |   13.774|
+ABB<0>         |ABO<6>         |   14.379|
+ABB<0>         |ABO<7>         |   15.289|
+ABB<1>         |ABO<1>         |   10.341|
+ABB<1>         |ABO<2>         |   10.793|
+ABB<1>         |ABO<3>         |   11.165|
+ABB<1>         |ABO<4>         |   11.833|
+ABB<1>         |ABO<5>         |   14.536|
+ABB<1>         |ABO<6>         |   15.141|
+ABB<1>         |ABO<7>         |   16.051|
+ABB<2>         |ABO<2>         |   11.087|
+ABB<2>         |ABO<3>         |    9.913|
+ABB<2>         |ABO<4>         |   10.501|
+ABB<2>         |ABO<5>         |   13.127|
+ABB<2>         |ABO<6>         |   13.732|
+ABB<2>         |ABO<7>         |   14.642|
+ABB<3>         |ABO<3>         |   10.765|
+ABB<3>         |ABO<4>         |   11.960|
+ABB<3>         |ABO<5>         |   12.227|
+ABB<3>         |ABO<6>         |   13.492|
+ABB<3>         |ABO<7>         |   13.742|
+ABB<4>         |ABO<4>         |   10.267|
+ABB<4>         |ABO<5>         |   12.107|
+ABB<4>         |ABO<6>         |   12.521|
+ABB<4>         |ABO<7>         |   13.431|
+ABB<5>         |ABO<5>         |   11.357|
+ABB<5>         |ABO<6>         |   11.849|
+ABB<5>         |ABO<7>         |   11.775|
+ABB<6>         |ABO<6>         |   12.041|
+ABB<6>         |ABO<7>         |   10.754|
+ABB<7>         |ABO<7>         |   10.246|
+ABCin          |ABO<1>         |   10.370|
+ABCin          |ABO<2>         |   10.610|
+ABCin          |ABO<3>         |   11.286|
+ABCin          |ABO<4>         |   11.954|
+ABCin          |ABO<5>         |   14.657|
+ABCin          |ABO<6>         |   15.262|
+ABCin          |ABO<7>         |   16.172|
+ABSel<0>       |ABO<0>         |    8.532|
+ABSel<0>       |ABO<1>         |   10.463|
+ABSel<0>       |ABO<2>         |   11.193|
+ABSel<0>       |ABO<3>         |   10.926|
+ABSel<0>       |ABO<4>         |   11.390|
+ABSel<0>       |ABO<5>         |   11.472|
+ABSel<0>       |ABO<6>         |   13.101|
+ABSel<0>       |ABO<7>         |   12.168|
+ABSel<1>       |ABO<0>         |    8.705|
+ABSel<1>       |ABO<1>         |   11.175|
+ABSel<1>       |ABO<2>         |   12.166|
+ABSel<1>       |ABO<3>         |   12.110|
+ABSel<1>       |ABO<4>         |   12.557|
+ABSel<1>       |ABO<5>         |   13.095|
+ABSel<1>       |ABO<6>         |   14.021|
+ABSel<1>       |ABO<7>         |   12.705|
+ABSel<2>       |ABO<0>         |    7.386|
+ABSel<2>       |ABO<1>         |   10.346|
+ABSel<2>       |ABO<2>         |   10.835|
+ABSel<2>       |ABO<3>         |   10.804|
+ABSel<2>       |ABO<4>         |   10.976|
+ABSel<2>       |ABO<5>         |   11.730|
+ABSel<2>       |ABO<6>         |   13.209|
+ABSel<2>       |ABO<7>         |   11.754|
+ABSel<3>       |ABO<0>         |    8.090|
+ABSel<3>       |ABO<1>         |    8.099|
+ABSel<3>       |ABO<2>         |    8.160|
+ABSel<3>       |ABO<3>         |    6.867|
+ABSel<3>       |ABO<4>         |    7.131|
+ABSel<3>       |ABO<5>         |    7.188|
+ABSel<3>       |ABO<6>         |    8.050|
+ABSel<3>       |ABO<7>         |    7.231|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Apr 22 14:39:33 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4491 MB
+
+
+

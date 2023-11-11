@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/University/6/Logic Circuits Lab/Keypad/TB_isim_beh.exe" -prj "D:/University/6/Logic Circuits Lab/Keypad/TB_beh.prj" "work.TB" 

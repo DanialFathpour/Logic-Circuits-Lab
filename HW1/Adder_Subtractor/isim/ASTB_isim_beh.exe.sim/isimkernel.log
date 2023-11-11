@@ -1,0 +1,28 @@
+Command line:
+   ASTB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51781
+
+Sat Apr 22 14:04:20 2023
+
+
+ Elaboration Time: 0.125 sec
+
+ Current Memory Usage: 5155.14 Meg
+
+ Total Signals          : 52
+ Total Nets             : 42
+ Total Signal Drivers   : 28
+ Total Blocks           : 19
+ Total Primitive Blocks : 17
+ Total Processes        : 26
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 410
+
+ Total Simulation Time: 0.171875 sec
+
+ Current Memory Usage: 5469.72 Meg
+
+Sat Apr 22 14:04:59 2023
+

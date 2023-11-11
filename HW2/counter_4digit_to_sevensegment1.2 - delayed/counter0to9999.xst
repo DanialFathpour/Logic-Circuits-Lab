@@ -1,0 +1,5 @@
+set -tmpdir "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2 - delayed/xst/projnav.tmp"
+set -xsthdpdir "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2 - delayed/xst"
+elaborate
+-ifn counter0to9999.prj
+-ifmt mixed

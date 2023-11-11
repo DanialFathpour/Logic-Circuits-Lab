@@ -1,0 +1,6 @@
+vhdl work "D:\University\6\Logic Circuits Lab\HW2\counter_4digit_to_sevensegment1.2\mux4to1.vhd"
+vhdl work "D:\University\6\Logic Circuits Lab\HW2\counter_4digit_to_sevensegment1.2\decoder2to4.vhd"
+vhdl work "D:\University\6\Logic Circuits Lab\HW2\counter_4digit_to_sevensegment1.2\counter0to9999.vhd"
+vhdl work "D:\University\6\Logic Circuits Lab\HW2\counter_4digit_to_sevensegment1.2\counter0to3.vhd"
+vhdl work "D:\University\6\Logic Circuits Lab\HW2\counter_4digit_to_sevensegment1.2\BCDtoSS.vhd"
+vhdl work "D:\University\6\Logic Circuits Lab\HW2\counter_4digit_to_sevensegment1.2\Main.vhd"

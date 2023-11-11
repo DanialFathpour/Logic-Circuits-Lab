@@ -1,0 +1,6 @@
+vhdl isim_temp "Full_Adder.vhd"
+vhdl isim_temp "AddSub.vhd"
+vhdl isim_temp "LB.vhd"
+vhdl isim_temp "AB.vhd"
+vhdl isim_temp "Main.vhd"
+vhdl isim_temp "ALUTB.vhd"

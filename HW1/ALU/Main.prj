@@ -1,0 +1,5 @@
+vhdl work "Full_Adder.vhd"
+vhdl work "AddSub.vhd"
+vhdl work "LB.vhd"
+vhdl work "AB.vhd"
+vhdl work "Main.vhd"

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/University/6/Logic Circuits Lab/Logic_circuits_lab_1/Full_AdderTB_isim_beh.exe" -prj "D:/University/6/Logic Circuits Lab/Logic_circuits_lab_1/Full_AdderTB_beh.prj" "work.Full_AdderTB" 

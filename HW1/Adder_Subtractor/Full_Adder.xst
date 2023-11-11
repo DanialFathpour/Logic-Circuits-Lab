@@ -1,0 +1,5 @@
+set -tmpdir "D:/University/6/Logic Circuits Lab/HW1/Adder_Subtractor/xst/projnav.tmp"
+set -xsthdpdir "D:/University/6/Logic Circuits Lab/HW1/Adder_Subtractor/xst"
+elaborate
+-ifn Full_Adder.prj
+-ifmt mixed

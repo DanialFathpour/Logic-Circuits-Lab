@@ -1,0 +1,7 @@
+V3 3
+FL "D:/University/6/Logic Circuits Lab/HW1/Logic_Block/LB.vhd" 2023/04/22.00:28:08 P.20131013
+EN work/LB 1682107152 \
+      FL "D:/University/6/Logic Circuits Lab/HW1/Logic_Block/LB.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/LB/Behavioral 1682107153 \
+      FL "D:/University/6/Logic Circuits Lab/HW1/Logic_Block/LB.vhd" EN work/LB 1682107152

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/University/6/Logic Circuits Lab/HW1/ALU/Main.xst" -ofn "D:/University/6/Logic Circuits Lab/HW1/ALU/Main.syr" 

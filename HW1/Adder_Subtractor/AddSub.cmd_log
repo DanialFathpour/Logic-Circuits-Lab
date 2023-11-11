@@ -1,0 +1,1 @@
+vhdtdtfi -prj Adder_Subtractor -o "D:/University/6/Logic Circuits Lab/HW1/Adder_Subtractor/AddSub.vhi" -module AddSub -template E:/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Full_Adder.vhd -lib work AddSub.vhd 

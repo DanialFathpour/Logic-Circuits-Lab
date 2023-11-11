@@ -1,0 +1,4 @@
+vhdl work "fa3.vhd"
+vhdl work "fa2.vhd"
+vhdl work "fa1.vhd"
+vhdl work "Main.vhd"

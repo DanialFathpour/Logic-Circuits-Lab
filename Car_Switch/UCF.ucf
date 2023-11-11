@@ -1,0 +1,4 @@
+Net ph_door LOC=p86;
+Net switch LOC=p79;
+Net alarm LOC=p171;
+Net lockled LOC=p169;

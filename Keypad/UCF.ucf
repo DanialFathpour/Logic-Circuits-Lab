@@ -1,0 +1,17 @@
+Net clk LOC = P184
+Net res LOC = P79
+Net output(0) LOC = P146
+Net output(1) LOC = P148
+Net output(2) LOC = P154
+Net output(3) LOC = P150
+Net output(4) LOC = P149
+Net output(5) LOC = P147
+Net output(6) LOC = P155
+Net output(7) LOC = P152
+Net column(0) LOC = P107
+Net column(1) LOC = P108
+Net column(2) LOC = P109
+Net row(0) LOC = P100
+Net row(1) LOC = P101
+Net row(2) LOC = P102
+Net row(3) LOC = P106

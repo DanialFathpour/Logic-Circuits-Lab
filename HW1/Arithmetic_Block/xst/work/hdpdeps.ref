@@ -1,0 +1,8 @@
+V3 4
+FL "D:/University/6/Logic Circuits Lab/HW1/Arithmetic_Block/AB.vhd" 2023/04/22.14:21:00 P.20131013
+EN work/AB 1682157088 \
+      FL "D:/University/6/Logic Circuits Lab/HW1/Arithmetic_Block/AB.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/AB/Behavioral 1682157089 \
+      FL "D:/University/6/Logic Circuits Lab/HW1/Arithmetic_Block/AB.vhd" \
+      EN work/AB 1682157088 CP AddSub

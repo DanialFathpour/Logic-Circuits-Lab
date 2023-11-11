@@ -1,0 +1,5 @@
+set -tmpdir "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/xst/projnav.tmp"
+set -xsthdpdir "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/xst"
+elaborate
+-ifn decoder2to4.prj
+-ifmt mixed

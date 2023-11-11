@@ -1,0 +1,4 @@
+NET"Sw1"loc=p79;
+NET"Sw2"loc=p80;
+NET"LED1"loc=p172;
+NET"LED2"loc=p175;

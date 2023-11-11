@@ -1,0 +1,1 @@
+vhdtdtfi -prj HW2-1.2 -o "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/decoder2to4.vhi" -module decoder2to4 -template E:/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work decoder2to4.vhd 

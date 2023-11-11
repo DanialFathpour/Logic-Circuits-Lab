@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/University/6/Logic Circuits Lab/Logic_circuits_lab_4/FSM1/MAINTB_isim_beh.exe" -prj "D:/University/6/Logic Circuits Lab/Logic_circuits_lab_4/FSM1/MAINTB_beh.prj" "work.MAINTB" 

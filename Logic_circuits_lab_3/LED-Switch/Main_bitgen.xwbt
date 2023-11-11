@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\University\6\Logic Circuits Lab\Logic_circuits_lab_3\LED-Switch\Main.ncd
+OUTFILE=D:\University\6\Logic Circuits Lab\Logic_circuits_lab_3\LED-Switch\Main.bit
+FAMILY=Spartan3
+PART=xc3s400-5pq208
+WORKINGDIR=D:\University\6\Logic Circuits Lab\Logic_circuits_lab_3\LED-Switch
+LICENSE=WebPack
+USER_INFO=__0_0_0

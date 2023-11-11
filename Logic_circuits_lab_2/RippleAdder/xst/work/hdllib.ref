@@ -1,0 +1,8 @@
+AR main behavioral "D:/University/6/Logic Circuits Lab/Logic_circuits_lab_2/RippleAdder/Main.vhd" sub00/vhpl07 1680684916
+AR fa2 behavioral "D:/University/6/Logic Circuits Lab/Logic_circuits_lab_2/RippleAdder/fa2.vhd" sub00/vhpl03 1680684912
+EN main NULL "D:/University/6/Logic Circuits Lab/Logic_circuits_lab_2/RippleAdder/Main.vhd" sub00/vhpl06 1680684915
+AR fa3 behavioral "D:/University/6/Logic Circuits Lab/Logic_circuits_lab_2/RippleAdder/fa3.vhd" sub00/vhpl05 1680684914
+AR fa1 behavioral "D:/University/6/Logic Circuits Lab/Logic_circuits_lab_2/RippleAdder/fa1.vhd" sub00/vhpl01 1680684910
+EN fa1 NULL "D:/University/6/Logic Circuits Lab/Logic_circuits_lab_2/RippleAdder/fa1.vhd" sub00/vhpl00 1680684909
+EN fa2 NULL "D:/University/6/Logic Circuits Lab/Logic_circuits_lab_2/RippleAdder/fa2.vhd" sub00/vhpl02 1680684911
+EN fa3 NULL "D:/University/6/Logic Circuits Lab/Logic_circuits_lab_2/RippleAdder/fa3.vhd" sub00/vhpl04 1680684913

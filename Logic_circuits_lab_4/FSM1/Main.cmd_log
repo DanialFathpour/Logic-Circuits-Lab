@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/University/6/Logic Circuits Lab/Logic_circuits_lab_4/FSM1/Main.xst" -ofn "D:/University/6/Logic Circuits Lab/Logic_circuits_lab_4/FSM1/Main.syr" 
+xst -intstyle ise -ifn "D:/University/6/Logic Circuits Lab/Logic_circuits_lab_4/FSM1/Main.xst" -ofn "D:/University/6/Logic Circuits Lab/Logic_circuits_lab_4/FSM1/Main.syr" 

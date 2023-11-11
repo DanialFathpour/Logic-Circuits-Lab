@@ -1,0 +1,8 @@
+V3 3
+FL "D:/University/6/Logic Circuits Lab/Car_Switch_2/Main.vhd" 2023/05/10.11:19:35 P.20131013
+EN work/Main 1683701405 \
+      FL "D:/University/6/Logic Circuits Lab/Car_Switch_2/Main.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/Main/Behavioral 1683701406 \
+      FL "D:/University/6/Logic Circuits Lab/Car_Switch_2/Main.vhd" EN work/Main 1683701405

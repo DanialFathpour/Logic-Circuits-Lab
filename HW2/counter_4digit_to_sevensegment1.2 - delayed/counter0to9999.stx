@@ -1,0 +1,37 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2 - delayed/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.32 secs
+ 
+--> Parameter xsthdpdir set to D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2 - delayed/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.32 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/counter0to9999 is now defined in a different file.  It was defined in "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/counter0to9999.vhd", and is now defined in "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2 - delayed/counter0to9999.vhd".
+WARNING:HDLParsers:3607 - Unit work/counter0to9999/Behavioral is now defined in a different file.  It was defined in "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/counter0to9999.vhd", and is now defined in "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2 - delayed/counter0to9999.vhd".
+Compiling vhdl file "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2 - delayed/counter0to9999.vhd" in Library work.
+Entity <counter0to9999> compiled.
+Entity <counter0to9999> (Architecture <behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.49 secs
+ 
+--> 
+
+Total memory usage is 4469108 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Main</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/Main.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/Main.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Main/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/Main.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/Main.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/BCDtoSS</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/BCDtoSS.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/BCDtoSS.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/BCDtoSS/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/BCDtoSS.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/BCDtoSS.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/counter0to3</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/counter0to3.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/counter0to3.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/counter0to3/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/counter0to3.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/counter0to3.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/counter0to9999</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/counter0to9999.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/counter0to9999.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/counter0to9999/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/counter0to9999.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/counter0to9999.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/decoder2to4</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/decoder2to4.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/decoder2to4.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/decoder2to4/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/decoder2to4.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/decoder2to4.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/mux4to1</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/mux4to1.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/mux4to1.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/mux4to1/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/mux4to1.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/mux4to1.vhd</arg>&quot;.
+</msg>
+
+</messages>
+

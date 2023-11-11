@@ -1,0 +1,6 @@
+vhdl work "mux4to1.vhd"
+vhdl work "decoder2to4.vhd"
+vhdl work "counter0to9999.vhd"
+vhdl work "counter0to3.vhd"
+vhdl work "BCDtoSS.vhd"
+vhdl work "Main.vhd"

@@ -1,0 +1,1 @@
+vhdtdtfi -prj ALU -o "D:/University/6/Logic Circuits Lab/HW1/ALU/LB.vhi" -module LB -template E:/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work LB.vhd 

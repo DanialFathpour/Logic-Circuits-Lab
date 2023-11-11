@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/Main.xst" -ofn "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/Main.syr" 
+xst -intstyle ise -ifn "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/Main.xst" -ofn "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/Main.syr" 
+xst -intstyle ise -ifn "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2 - delayed/Main.xst" -ofn "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2 - delayed/Main.syr" 

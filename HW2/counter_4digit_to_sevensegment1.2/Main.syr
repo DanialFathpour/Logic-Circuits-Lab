@@ -1,0 +1,441 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: Main.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Main.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Main"
+Output Format                      : NGC
+Target Device                      : xc3s400-5-pq208
+
+---- Source Options
+Top Module Name                    : Main
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/Main is now defined in a different file.  It was defined in "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/Main.vhd", and is now defined in "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/Main.vhd".
+WARNING:HDLParsers:3607 - Unit work/Main/Behavioral is now defined in a different file.  It was defined in "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/Main.vhd", and is now defined in "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/Main.vhd".
+WARNING:HDLParsers:3607 - Unit work/BCDtoSS is now defined in a different file.  It was defined in "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/BCDtoSS.vhd", and is now defined in "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/BCDtoSS.vhd".
+WARNING:HDLParsers:3607 - Unit work/BCDtoSS/Behavioral is now defined in a different file.  It was defined in "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/BCDtoSS.vhd", and is now defined in "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/BCDtoSS.vhd".
+WARNING:HDLParsers:3607 - Unit work/counter0to3 is now defined in a different file.  It was defined in "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/counter0to3.vhd", and is now defined in "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/counter0to3.vhd".
+WARNING:HDLParsers:3607 - Unit work/counter0to3/Behavioral is now defined in a different file.  It was defined in "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/counter0to3.vhd", and is now defined in "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/counter0to3.vhd".
+WARNING:HDLParsers:3607 - Unit work/counter0to9999 is now defined in a different file.  It was defined in "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/counter0to9999.vhd", and is now defined in "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/counter0to9999.vhd".
+WARNING:HDLParsers:3607 - Unit work/counter0to9999/Behavioral is now defined in a different file.  It was defined in "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/counter0to9999.vhd", and is now defined in "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/counter0to9999.vhd".
+WARNING:HDLParsers:3607 - Unit work/decoder2to4 is now defined in a different file.  It was defined in "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/decoder2to4.vhd", and is now defined in "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/decoder2to4.vhd".
+WARNING:HDLParsers:3607 - Unit work/decoder2to4/Behavioral is now defined in a different file.  It was defined in "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/decoder2to4.vhd", and is now defined in "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/decoder2to4.vhd".
+WARNING:HDLParsers:3607 - Unit work/mux4to1 is now defined in a different file.  It was defined in "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/mux4to1.vhd", and is now defined in "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/mux4to1.vhd".
+WARNING:HDLParsers:3607 - Unit work/mux4to1/Behavioral is now defined in a different file.  It was defined in "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/mux4to1.vhd", and is now defined in "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/mux4to1.vhd".
+Compiling vhdl file "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/BCDtoSS.vhd" in Library work.
+Architecture behavioral of Entity bcdtoss is up to date.
+Compiling vhdl file "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/counter0to3.vhd" in Library work.
+Architecture behavioral of Entity counter0to3 is up to date.
+Compiling vhdl file "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/counter0to9999.vhd" in Library work.
+Architecture behavioral of Entity counter0to9999 is up to date.
+Compiling vhdl file "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/decoder2to4.vhd" in Library work.
+Architecture behavioral of Entity decoder2to4 is up to date.
+Compiling vhdl file "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/mux4to1.vhd" in Library work.
+Architecture behavioral of Entity mux4to1 is up to date.
+Compiling vhdl file "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/Main.vhd" in Library work.
+Entity <main> compiled.
+Entity <main> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <BCDtoSS> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <counter0to3> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <counter0to9999> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <decoder2to4> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <mux4to1> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Main> in library <work> (Architecture <behavioral>).
+Entity <Main> analyzed. Unit <Main> generated.
+
+Analyzing Entity <BCDtoSS> in library <work> (Architecture <behavioral>).
+Entity <BCDtoSS> analyzed. Unit <BCDtoSS> generated.
+
+Analyzing Entity <counter0to3> in library <work> (Architecture <behavioral>).
+Entity <counter0to3> analyzed. Unit <counter0to3> generated.
+
+Analyzing Entity <counter0to9999> in library <work> (Architecture <behavioral>).
+Entity <counter0to9999> analyzed. Unit <counter0to9999> generated.
+
+Analyzing Entity <decoder2to4> in library <work> (Architecture <behavioral>).
+Entity <decoder2to4> analyzed. Unit <decoder2to4> generated.
+
+Analyzing Entity <mux4to1> in library <work> (Architecture <behavioral>).
+Entity <mux4to1> analyzed. Unit <mux4to1> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <BCDtoSS>.
+    Related source file is "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/BCDtoSS.vhd".
+    Found 16x8-bit ROM for signal <bcsso>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <BCDtoSS> synthesized.
+
+
+Synthesizing Unit <counter0to3>.
+    Related source file is "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/counter0to3.vhd".
+    Found 2-bit up counter for signal <count>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <counter0to3> synthesized.
+
+
+Synthesizing Unit <counter0to9999>.
+    Related source file is "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/counter0to9999.vhd".
+    Found 4-bit up counter for signal <count1>.
+    Found 4-bit up counter for signal <count2>.
+    Found 4-bit up counter for signal <count3>.
+    Found 4-bit up counter for signal <count4>.
+    Summary:
+	inferred   4 Counter(s).
+Unit <counter0to9999> synthesized.
+
+
+Synthesizing Unit <decoder2to4>.
+    Related source file is "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/decoder2to4.vhd".
+    Found 1-of-4 decoder for signal <dco>.
+    Summary:
+	inferred   1 Decoder(s).
+Unit <decoder2to4> synthesized.
+
+
+Synthesizing Unit <mux4to1>.
+    Related source file is "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/mux4to1.vhd".
+    Found 4-bit 4-to-1 multiplexer for signal <mxo>.
+    Summary:
+	inferred   4 Multiplexer(s).
+Unit <mux4to1> synthesized.
+
+
+Synthesizing Unit <Main>.
+    Related source file is "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/Main.vhd".
+Unit <Main> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Counters                                             : 5
+ 2-bit up counter                                      : 1
+ 4-bit up counter                                      : 4
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Counters                                             : 5
+ 2-bit up counter                                      : 1
+ 4-bit up counter                                      : 4
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Main> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Main, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 18
+ Flip-Flops                                            : 18
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Main.ngr
+Top Level Output File Name         : Main
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 14
+
+Cell Usage :
+# BELS                             : 48
+#      GND                         : 1
+#      INV                         : 5
+#      LUT2                        : 6
+#      LUT3                        : 12
+#      LUT3_L                      : 1
+#      LUT4                        : 19
+#      MUXF5                       : 4
+# FlipFlops/Latches                : 18
+#      FDC                         : 6
+#      FDCE                        : 12
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 13
+#      IBUF                        : 1
+#      OBUF                        : 12
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-5 
+
+ Number of Slices:                       21  out of   3584     0%  
+ Number of Slice Flip Flops:             18  out of   7168     0%  
+ Number of 4 input LUTs:                 43  out of   7168     0%  
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    141     9%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 18    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst                                | IBUF                   | 18    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.837ns (Maximum Frequency: 206.720MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 9.993ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 4.837ns (frequency: 206.720MHz)
+  Total number of paths / destination ports: 147 / 30
+-------------------------------------------------------------------------
+Delay:               4.837ns (Levels of Logic = 2)
+  Source:            Inst_counter0to9999/count1_3 (FF)
+  Destination:       Inst_counter0to9999/count4_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: Inst_counter0to9999/count1_3 to Inst_counter0to9999/count4_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              4   0.626   1.074  Inst_counter0to9999/count1_3 (Inst_counter0to9999/count1_3)
+     LUT4:I0->O            6   0.479   0.876  Inst_counter0to9999/count4_not0001111 (Inst_counter0to9999/count1_cmp_eq0000)
+     LUT4:I3->O            4   0.479   0.779  Inst_counter0to9999/count4_not00011 (Inst_counter0to9999/count3_not0001)
+     FDCE:CE                   0.524          Inst_counter0to9999/count3_0
+    ----------------------------------------
+    Total                      4.837ns (2.108ns logic, 2.729ns route)
+                                       (43.6% logic, 56.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 204 / 11
+-------------------------------------------------------------------------
+Offset:              9.993ns (Levels of Logic = 4)
+  Source:            Inst_counter0to3/count_0 (FF)
+  Destination:       o_s<6> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: Inst_counter0to3/count_0 to o_s<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             14   0.626   1.304  Inst_counter0to3/count_0 (Inst_counter0to3/count_0)
+     LUT3:I0->O            1   0.479   0.000  Inst_mux4to1/Mmux_mxo_3 (Inst_mux4to1/Mmux_mxo_3)
+     MUXF5:I1->O           7   0.314   1.201  Inst_mux4to1/Mmux_mxo_2_f5 (Si1<0>)
+     LUT4:I0->O            1   0.479   0.681  Inst_BCDtoSS/Mrom_bcsso41 (o_s_4_OBUF)
+     OBUF:I->O                 4.909          o_s_4_OBUF (o_s<4>)
+    ----------------------------------------
+    Total                      9.993ns (6.807ns logic, 3.186ns route)
+                                       (68.1% logic, 31.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.04 secs
+ 
+--> 
+
+Total memory usage is 4514452 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   12 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

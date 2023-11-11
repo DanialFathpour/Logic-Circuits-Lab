@@ -1,0 +1,10 @@
+EN ab NULL "D:/University/6/Logic Circuits Lab/HW1/ALU/AB.vhd" sub00/vhpl04 1682875253
+AR lb behavioral "D:/University/6/Logic Circuits Lab/HW1/ALU/LB.vhd" sub00/vhpl09 1682875252
+AR main behavioral "D:/University/6/Logic Circuits Lab/HW1/ALU/Main.vhd" sub00/vhpl07 1682875256
+EN lb NULL "D:/University/6/Logic Circuits Lab/HW1/ALU/LB.vhd" sub00/vhpl08 1682875251
+AR ab behavioral "D:/University/6/Logic Circuits Lab/HW1/ALU/AB.vhd" sub00/vhpl05 1682875254
+EN main NULL "D:/University/6/Logic Circuits Lab/HW1/ALU/Main.vhd" sub00/vhpl06 1682875255
+AR addsub behavioral "D:/University/6/Logic Circuits Lab/HW1/ALU/AddSub.vhd" sub00/vhpl03 1682875250
+EN addsub NULL "D:/University/6/Logic Circuits Lab/HW1/ALU/AddSub.vhd" sub00/vhpl02 1682875249
+EN full_adder NULL "D:/University/6/Logic Circuits Lab/HW1/ALU/Full_Adder.vhd" sub00/vhpl00 1682875247
+AR full_adder behavioral "D:/University/6/Logic Circuits Lab/HW1/ALU/Full_Adder.vhd" sub00/vhpl01 1682875248

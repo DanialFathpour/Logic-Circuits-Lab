@@ -1,0 +1,12 @@
+EN counter0to3 NULL "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2 - delayed/counter0to3.vhd" sub00/vhpl02 1683103621
+AR main behavioral "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2 - delayed/Main.vhd" sub00/vhpl11 1683103630
+EN counter0to9999 NULL "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2 - delayed/counter0to9999.vhd" sub00/vhpl00 1683103623
+AR counter0to3 behavioral "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2 - delayed/counter0to3.vhd" sub00/vhpl03 1683103622
+EN mux4to1 NULL "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2 - delayed/mux4to1.vhd" sub00/vhpl04 1683103627
+EN decoder2to4 NULL "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2 - delayed/decoder2to4.vhd" sub00/vhpl06 1683103625
+EN main NULL "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2 - delayed/Main.vhd" sub00/vhpl10 1683103629
+AR counter0to9999 behavioral "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2 - delayed/counter0to9999.vhd" sub00/vhpl01 1683103624
+AR bcdtoss behavioral "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2 - delayed/BCDtoSS.vhd" sub00/vhpl09 1683103620
+AR decoder2to4 behavioral "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2 - delayed/decoder2to4.vhd" sub00/vhpl07 1683103626
+AR mux4to1 behavioral "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2 - delayed/mux4to1.vhd" sub00/vhpl05 1683103628
+EN bcdtoss NULL "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2 - delayed/BCDtoSS.vhd" sub00/vhpl08 1683103619

@@ -1,0 +1,173 @@
+218p107146;#CLK PIN
+Net CLK LOC=p184;
+
+#  RS232_1
+Net RX_1 LOC=p135;
+Net TX_1 LOC=p137;
+
+#  RS232_2
+Net RX_2 LOC=p139;
+Net TX_2 LOC=p138;
+
+#ON-OFF Switches
+Net SW<15> LOC=p86;		#Switch1
+Net SW<14> LOC=p87;
+Net SW<13> LOC=p90;
+Net SW<12> LOC=p93;
+Net SW<11> LOC=p94;
+Net SW<10> LOC=p95;
+Net SW<9> LOC=p96;
+Net SW<8> LOC=p97;
+Net SW<7> LOC=p67;
+Net SW<6> LOC=p68;
+Net SW<5> LOC=p71;
+Net SW<4> LOC=p72;
+Net SW<3> LOC=p74;
+Net SW<2> LOC=p76;
+Net SW<1> LOC=p77;
+Net SW<0> LOC=p78;		#Switch16
+
+#Push Buttons
+Net PushB<0> LOC=p79;	#PushButton1
+Net PushB<1> LOC=p80;
+Net PushB<2> LOC=p81;
+Net PushB<3> LOC=p85;	#PushButton4
+
+#LEDs
+Net LED<15> LOC=p171;	#led1
+Net LED<14> LOC=p169;
+Net LED<13> LOC=p168;
+Net LED<12> LOC=p167;
+Net LED<11> LOC=p166;
+Net LED<10> LOC=p165;
+Net LED<9> LOC=p162;
+Net LED<8> LOC=p161;
+Net LED<7> LOC=p183;
+Net LED<6> LOC=p182;
+Net LED<5> LOC=p181;
+Net LED<4> LOC=p180;
+Net LED<3> LOC=p178;
+Net LED<2> LOC=p176;
+Net LED<1> LOC=p175;
+Net LED<0> LOC=p172;	#led16
+
+#7-Segment
+Net SevenSeg<0> LOC=p146;	#a
+Net SevenSeg<1> LOC=p148;	#b
+Net SevenSeg<2> LOC=p154;	#c
+Net SevenSeg<3> LOC=p150;	#d
+Net SevenSeg<4> LOC=p149;	#e
+Net SevenSeg<5> LOC=p147;	#f
+Net SevenSeg<6> LOC=p155;	#g
+Net SevenSeg<7> LOC=p152;	#p
+Net SevenSeg<8> LOC=p144;	#Digit1
+Net SevenSeg<9> LOC=p143;	#Digit2
+Net SevenSeg<10> LOC=p141;	#Digit3
+Net SevenSeg<11> LOC=p140;	#Digit4
+
+#keypad
+Net KeyPad<1> LOC=p107;		#C1
+Net KeyPad<2> LOC=p108;		#C2
+Net KeyPad<3> LOC=p109;		#C3
+Net KeyPad<4> LOC=p100;		#R1
+Net KeyPad<5> LOC=p101;		#R2
+Net KeyPad<6> LOC=p102;		#R3
+Net KeyPad<7> LOC=p106;		#R4
+
+#SRAM
+ Net SRAM_A<17> LOC=p2;
+ Net SRAM_A<16> LOC=p3;
+ Net SRAM_A<15> LOC=p4;
+ Net SRAM_A<14> LOC=p20;
+ Net SRAM_A<13> LOC=p21;
+ Net SRAM_A<12> LOC=p22;
+ Net SRAM_A<11> LOC=p24;
+ Net SRAM_A<10> LOC=p26;
+ Net SRAM_A<9> LOC=p27;
+ Net SRAM_A<8> LOC=p28;
+ Net SRAM_A<7> LOC=p29;
+ Net SRAM_A<6> LOC=p31;
+ Net SRAM_A<5> LOC=p33;
+ Net SRAM_A<4> LOC=p46;
+ Net SRAM_A<3> LOC=p48;
+ Net SRAM_A<2> LOC=p50;
+ Net SRAM_A<1> LOC=p51;
+ Net SRAM_A<0> LOC=p52;
+ 
+ Net SRAM_CEN LOC=p45;
+ Net SRAM_OEN LOC=p5;
+ Net SRAM_WEN LOC=p34;
+ 
+ Net SRAM_BEN_LB<0> LOC=p9;
+ Net SRAM_BEN_UP<0> LOC=p7;
+ Net SRAM_DQ<15> LOC=p10;
+ Net SRAM_DQ<14> LOC=p11;
+ Net SRAM_DQ<13> LOC=p12;
+ Net SRAM_DQ<12> LOC=p13;
+ Net SRAM_DQ<11> LOC=p15;
+ Net SRAM_DQ<10> LOC=p16;
+ Net SRAM_DQ<9> LOC=p18;
+ Net SRAM_DQ<8> LOC=p19;
+ Net SRAM_DQ<7> LOC=p35;
+ Net SRAM_DQ<6> LOC=p36;
+ Net SRAM_DQ<5> LOC=p37;
+ Net SRAM_DQ<4> LOC=p39;
+ Net SRAM_DQ<3> LOC=p40;
+ Net SRAM_DQ<2> LOC=p42;
+ Net SRAM_DQ<1> LOC=p43;
+ Net SRAM_DQ<0> LOC=p44;
+
+ #LCD
+ Net LCD_E LOC=p199;
+ Net LCD_RS LOC=p197;
+ Net LCD_RW LOC=p198;
+ Net LCD_DB4 LOC=p205;
+ Net LCD_DB5 LOC=p204;
+ Net LCD_DB6 LOC=p203;
+ Net LCD_DB7 LOC=p200;
+
+#8-Color VGA
+ Net red 	LOC=p191;
+ Net blue 	LOC=p189;
+ Net green 	LOC=p190;
+ Net hsync 	LOC=p187;
+ Net vsync 	LOC=p185;
+
+#PS2
+Net PS2_CLK	LOC=p196;
+Net PS2_DATA LOC=p194;
+ 
+ 
+#Ethernet 
+Net Ethernet_MAC_PHY_tx_clk LOC=p120  |  CLOCK_DEDICATED_ROUTE = FALSE;
+Net fpga_0_Ethernet_MAC_PHY_rx_clk LOC=p124  |  CLOCK_DEDICATED_ROUTE = FALSE;
+Net fpga_0_Ethernet_MAC_PHY_crs LOC=p111;
+Net fpga_0_Ethernet_MAC_PHY_dv LOC=p125;
+Net fpga_0_Ethernet_MAC_PHY_rx_data<0> LOC=p126;
+Net fpga_0_Ethernet_MAC_PHY_rx_data<1> LOC=p128;
+Net fpga_0_Ethernet_MAC_PHY_rx_data<2> LOC=p130;
+Net fpga_0_Ethernet_MAC_PHY_rx_data<3> LOC=p131;
+Net fpga_0_Ethernet_MAC_PHY_col LOC=p113;
+Net fpga_0_Ethernet_MAC_PHY_tx_en LOC=p119;
+Net fpga_0_Ethernet_MAC_PHY_tx_data<0> LOC=p117;
+Net fpga_0_Ethernet_MAC_PHY_tx_data<1> LOC=p116;
+Net fpga_0_Ethernet_MAC_PHY_tx_data<2> LOC=p115;
+Net fpga_0_Ethernet_MAC_PHY_tx_data<3> LOC=p114;
+Net fpga_0_Ethernet_MAC_PHY_MDC LOC=p132;
+Net fpga_0_Ethernet_MAC_PHY_MDIO LOC=p133;
+
+#SPI
+Net SPI_SDI	LOC=p62;
+Net SPI_SDO LOC=p61;
+Net SPI_SCK LOC=p58;
+Net ROM_CS	LOC=p65;
+Net DAC_CS	LOC=p64;
+Net AMP_CS	LOC=p63;
+Net ADC_CONV LOC=p57;
+
+#platformFlash
+Net RCLK	LOC=156;
+Net DIN		LOC=p92;
+
+
+

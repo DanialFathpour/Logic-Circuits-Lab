@@ -1,0 +1,2 @@
+vhdl isim_temp "counter0to9999.vhd"
+vhdl isim_temp "c0t9999TB.vhd"

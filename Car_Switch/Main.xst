@@ -1,0 +1,5 @@
+set -tmpdir "D:/University/6/Logic Circuits Lab/Car_Switch_2/xst/projnav.tmp"
+set -xsthdpdir "D:/University/6/Logic Circuits Lab/Car_Switch_2/xst"
+elaborate
+-ifn Main.prj
+-ifmt mixed

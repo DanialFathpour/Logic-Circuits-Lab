@@ -1,0 +1,1 @@
+vhdtdtfi -prj HW2-1.2 -o "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/counter0to3.vhi" -module counter0to3 -template E:/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work counter0to3.vhd 

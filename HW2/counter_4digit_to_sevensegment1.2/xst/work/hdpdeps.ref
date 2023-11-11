@@ -1,0 +1,56 @@
+V3 29
+FL "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/BCDtoSS.vhd" 2023/04/30.00:24:13 P.20131013
+EN work/BCDtoSS 1682875342 \
+      FL "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/BCDtoSS.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/BCDtoSS/Behavioral 1682875343 \
+      FL "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/BCDtoSS.vhd" \
+      EN work/BCDtoSS 1682875342
+FL "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/counter0to3.vhd" 2023/04/30.00:34:18 P.20131013
+EN work/counter0to3 1682875344 \
+      FL "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/counter0to3.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/counter0to3/Behavioral 1682875345 \
+      FL "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/counter0to3.vhd" \
+      EN work/counter0to3 1682875344
+FL "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/counter0to9999.vhd" 2023/04/30.00:21:06 P.20131013
+EN work/counter0to9999 1682875346 \
+      FL "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/counter0to9999.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/counter0to9999/Behavioral 1682875347 \
+      FL "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/counter0to9999.vhd" \
+      EN work/counter0to9999 1682875346
+FL "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/decoder2to4.vhd" 2023/04/30.00:23:31 P.20131013
+EN work/decoder2to4 1682875348 \
+      FL "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/decoder2to4.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/decoder2to4/Behavioral 1682875349 \
+      FL "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/decoder2to4.vhd" \
+      EN work/decoder2to4 1682875348
+FL "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/Main.vhd" 2023/04/30.21:52:17 P.20131013
+EN work/Main 1682875352 \
+      FL "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/Main.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/Main/Behavioral 1682875353 \
+      FL "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/Main.vhd" \
+      EN work/Main 1682875352 CP BCDtoSS CP counter0to3 CP counter0to9999 \
+      CP decoder2to4 CP mux4to1
+FL "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/mux4to1.vhd" 2023/04/30.00:22:44 P.20131013
+EN work/mux4to1 1682875350 \
+      FL "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/mux4to1.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/mux4to1/Behavioral 1682875351 \
+      FL "D:/University/6/Logic Circuits Lab/HW2/counter_4digit_to_sevensegment1.2/mux4to1.vhd" \
+      EN work/mux4to1 1682875350
+FL "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/BCDtoSS.vhd" 2023/04/30.00:24:13 P.20131013
+FL "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/counter0to3.vhd" 2023/04/30.00:34:18 P.20131013
+FL "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/counter0to9999.vhd" 2023/04/30.00:21:06 P.20131013
+FL "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/decoder2to4.vhd" 2023/04/30.00:23:31 P.20131013
+FL "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/Main.vhd" 2023/04/30.00:34:33 P.20131013
+FL "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/mux4to1.vhd" 2023/04/30.00:22:44 P.20131013

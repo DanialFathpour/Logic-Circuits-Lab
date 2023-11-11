@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/c0t9999TB_isim_beh.exe" -prj "D:/University/6/Logic Circuits Lab/HW2/HW2-1.2/c0t9999TB_beh.prj" "work.c0t9999TB" 
